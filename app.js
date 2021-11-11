@@ -85,8 +85,7 @@ const fieldsConfig = [
     rules: [
       {required: true, message: 'Zip Code name is required.'},
     ]
- 
- },
+  },
   
  {
     name: 'mobile-number',
@@ -99,12 +98,9 @@ const fieldsConfig = [
     name: 'personal-number',
     rules: [
       {required: true, message: 'personal number is required.'},
-      {maxLength: 11, message: 'სიბოლოების რაოდენობა უნდა იყოს აღემატებოდეს 13-ს'},
-    ]
-  }
-    ]
-  }
-];
+      {maxLength: 11, message: 'სიბოლოების რაოდენობა უნდა იყოს აღემატებოდეს 13-ს'}
+      }
+  ];
 
 
 const form = document.querySelector('#user-registraion-form');

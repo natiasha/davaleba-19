@@ -98,9 +98,9 @@ const fieldsConfig = [
     name: 'personal-number',
     rules: [
       {required: true, message: 'personal number is required.'},
-      {maxLength: 11, message: 'სიბოლოების რაოდენობა უნდა იყოს აღემატებოდეს 13-ს'}
-      ]
-      }
+      {maxLength: 11, message: 'სიბოლოების რაოდენობა უნდა იყოს აღემატებოდეს 13-ს'},
+     ]
+  }
   ];
 
 

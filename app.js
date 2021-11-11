@@ -88,8 +88,7 @@ const fieldsConfig = [
  
  },
   
- // damatebuli
-  {
+ {
     name: 'mobile-number',
     rules: [
       {required: true, message: 'mobile number is required.'},

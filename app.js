@@ -21,7 +21,7 @@ const formValidator = (form, fieldsConfig, onValidateSuccess, onValidationError)
     } else {
       errorElement.innerText = '';
     }
-    // console.log(fieldValidationResult);
+     console.log(fieldValidationResult);
 
     return fieldValidationResult;
   }
@@ -87,12 +87,20 @@ const fieldsConfig = [
     ]
  
  }
+  
  // damatebuli
   {
     name: 'mobile-number',
     rules: [
       {required: true, message: 'mobile number is required.'},
       {maxLength: 13, message: 'სიბოლოების რაოდენობა უნდა იყოს აღემატებოდეს 13-ს'},
+    ]
+  },
+    {
+    name: 'personal-number',
+    rules: [
+      {required: true, message: 'personal number is required.'},
+      {maxLength: 11, message: 'სიბოლოების რაოდენობა უნდა იყოს აღემატებოდეს 13-ს'},
     ]
   },
     ]

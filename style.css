@@ -11,9 +11,6 @@
     margin: 0;
     color: red;
 }
- .mobile-number {
-  margin-bottom: 15px;   
-}
-.personal-number{
+ label {
   margin-bottom: 15px;   
 }

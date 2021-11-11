@@ -11,6 +11,9 @@
     margin: 0;
     color: red;
 }
-.form-group .mobile-number .personal-number{
+ .mobile-number {
+  margin-bottom: 15px;   
+}
+.personal-number{
   margin-bottom: 15px;   
 }

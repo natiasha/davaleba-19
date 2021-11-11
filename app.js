@@ -86,7 +86,7 @@ const fieldsConfig = [
       {required: true, message: 'Zip Code name is required.'},
     ]
  
- }
+ },
   
  // damatebuli
   {
@@ -102,7 +102,7 @@ const fieldsConfig = [
       {required: true, message: 'personal number is required.'},
       {maxLength: 11, message: 'სიბოლოების რაოდენობა უნდა იყოს აღემატებოდეს 13-ს'},
     ]
-  },
+  }
     ]
   }
 ];
